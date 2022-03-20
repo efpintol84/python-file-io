@@ -5,7 +5,7 @@ import re
 
 "A script to match specific patterns (words) in a text and print them and the number of lines where they appear" 
 
-re_patter_string = r'[inherit....\w*]'
+re_patter_string = r'\t[inherit*]\w'
 re_patter_object = re.compile(re_patter_string, re.MULTILINE)
 #re_patter_object.findall(re_patter_string)
 
